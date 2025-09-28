@@ -19,7 +19,7 @@ export const minikitConfig = {
   },
 
   baseBuilder: {
-    allowedAddresses: [],
+    allowedAddresses: ["0x8515d90b7E10f24c5bCefdfEC940509e28fE2C28"],
   },
   miniapp: {
     version: "1",
@@ -33,7 +33,7 @@ export const minikitConfig = {
     homeUrl: ROOT_URL,
     webhookUrl: `${ROOT_URL}/api/webhook`,
     primaryCategory: "utility",
-    tags: ["example"],
+    tags: ["mini"],
     heroImageUrl: `${ROOT_URL}/hero.png`,
     tagline: "trymini",
     ogTitle: "davismini",
