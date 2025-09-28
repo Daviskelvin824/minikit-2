@@ -8,13 +8,14 @@ const ROOT_URL =
  *
  * @see {@link https://docs.base.org/mini-apps/features/manifest}
  */
+
 export const minikitConfig = {
   accountAssociation: {
     header:
-      "eyJmaWQiOjExODU1MDUsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgxQ2JFNzYyRjRGY2QxMDk2ZkU5N0UyOENiMGZjMTc0NWVFRmYyNjRiIn0",
+      "eyJmaWQiOjExODU1MDUsInR5cGUiOiJhdXRoIiwia2V5IjoiMHg0YzlkYTdmNjlkNTE3MkVjMjI1NjA2ODlkMzU1OTQ5Y0EwNDU5ZGM0In0",
     payload: "eyJkb21haW4iOiJtaW5pa2l0LTIudmVyY2VsLmFwcCJ9",
     signature:
-      "MHgxNTE4M2VjMDhkMGIzOGZkNWY4YzcyZWNmNjA0OTQ2MTAzZjI5MDNlODAzZDk1NGUzNDliMjA0NzY2ZDQ4OWU2N2I4YWFhMjMzNTIxZTcyMDRmYTZkOGJmNDE0ZDNlNjIzNWYxYTMyMmJlOTc4OTJlODhlMmNhZGI0ZjI0MTQwMDFj",
+      "wjsCAoePiVOxneVQwKk6zlD9Bqw+mUH0Mz163aHbbkJFs6B15TcW9gPnwEd/f3vs4DDtp+SLmsycv8k0q3vWdRw=",
   },
   baseBuilder: {
     allowedAddresses: [],
