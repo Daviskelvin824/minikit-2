@@ -10,9 +10,9 @@ const ROOT_URL =
  */
 export const minikitConfig = {
   accountAssociation: {
-    header: "",
-    payload: "",
-    signature: "",
+    header: "eyJmaWQiOjExODU1MDUsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgxQ2JFNzYyRjRGY2QxMDk2ZkU5N0UyOENiMGZjMTc0NWVFRmYyNjRiIn0",
+    payload: "eyJkb21haW4iOiJtaW5pa2l0LTIudmVyY2VsLmFwcCJ9",
+    signature: "MHgxNTE4M2VjMDhkMGIzOGZkNWY4YzcyZWNmNjA0OTQ2MTAzZjI5MDNlODAzZDk1NGUzNDliMjA0NzY2ZDQ4OWU2N2I4YWFhMjMzNTIxZTcyMDRmYTZkOGJmNDE0ZDNlNjIzNWYxYTMyMmJlOTc4OTJlODhlMmNhZGI0ZjI0MTQwMDFj",
   },
   baseBuilder: {
     allowedAddresses: [],
@@ -20,8 +20,8 @@ export const minikitConfig = {
   miniapp: {
     version: "1",
     name: "minikit-2",
-    subtitle: "",
-    description: "",
+    subtitle: "mini-kit",
+    description: "davisminikit",
     screenshotUrls: [],
     iconUrl: `${ROOT_URL}/icon.png`,
     splashImageUrl: `${ROOT_URL}/splash.png`,
@@ -31,9 +31,9 @@ export const minikitConfig = {
     primaryCategory: "utility",
     tags: ["example"],
     heroImageUrl: `${ROOT_URL}/hero.png`,
-    tagline: "",
-    ogTitle: "",
-    ogDescription: "",
+    tagline: "trymini",
+    ogTitle: "davismini",
+    ogDescription: "davis mini",
     ogImageUrl: `${ROOT_URL}/hero.png`,
   },
 } as const;
